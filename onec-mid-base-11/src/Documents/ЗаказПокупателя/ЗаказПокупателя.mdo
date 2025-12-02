@@ -213,6 +213,30 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="55898e81-0214-4873-b6de-f816fda5c113">
+    <name>ДК_СогласованнаяСкидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласованная скидка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>100</value>
+    </maxValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="d2984117-1a5a-45ca-bc97-adb070bd946d">
     <name>ФормаДокумента</name>
     <synonym>
@@ -304,7 +328,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="8e6fe1fb-3f24-49ca-bda2-75d73150c48a">
+    <attributes uuid="316eb434-e964-40b6-aa50-0a30e98cd38f">
       <name>Скидка</name>
       <synonym>
         <key>ru</key>
@@ -318,12 +342,8 @@
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
-      <minValue xsi:type="core:StringValue">
-        <value>0</value>
-      </minValue>
-      <maxValue xsi:type="core:StringValue">
-        <value>100</value>
-      </maxValue>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -419,7 +439,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="08aeed50-9129-4979-acd5-f1b55212bb51">
+    <attributes uuid="11c615cd-86a2-4384-acf5-9e9aa1f307a3">
       <name>Скидка</name>
       <synonym>
         <key>ru</key>
@@ -433,12 +453,8 @@
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
-      <minValue xsi:type="core:StringValue">
-        <value>0</value>
-      </minValue>
-      <maxValue xsi:type="core:StringValue">
-        <value>100</value>
-      </maxValue>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
